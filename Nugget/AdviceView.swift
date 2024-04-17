@@ -16,30 +16,35 @@ struct AdviceView: View {
             
             Image("bg")
                 .ignoresSafeArea()
-                .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
+                .opacity(0.8)
             
             VStack{
                 Text("Trust yourself!")
                     .font(.custom("RobotoMono-Medium", size: 15))
                     .frame(maxWidth: 326)
-                    .foregroundStyle(.white)
+                    .foregroundStyle(.gray)
                     .padding(.vertical, 10)
                 Spacer()
             }.padding(50)
             
-            VStack {
-                Text("🫶🏻")
-                    .font(.custom("RobotoMono-Medium", size: 45))
-                Text(viewmodel.advice.advice)
-                    .font(.custom("RobotoMono-Medium", size: 30))
-                    .frame(maxWidth: 326)
-                    .foregroundStyle(.black)
-                    .padding(.vertical, 10)
-                Text("🫶🏻")
-                    .font(.custom("RobotoMono-Medium", size: 45))
+            if !viewmodel.isLoading {
+                VStack {
+                    Text("🫶🏻")
+                        .font(.custom("RobotoMono-Medium", size: 45))
+                    Text(viewmodel.advice.advice)
+                        .font(.custom("RobotoMono-Medium", size: 30))
+                        .frame(maxWidth: 326)
+                        .foregroundStyle(.black)
+                        .padding(.vertical, 10)
+                    Text("🫶🏻")
+                        .font(.custom("RobotoMono-Medium", size: 45))
+                }
+                .padding(.horizontal, 40)
+                .foregroundStyle(.font01)
+            } else {
+                ProgressView()
+                    .progressViewStyle(.circular)
             }
-            .padding(.horizontal, 40)
-            .foregroundStyle(.font01)
             
             VStack{
                 Spacer()
@@ -55,6 +60,7 @@ struct AdviceView: View {
                                     .imageScale(.large)
                                     .foregroundStyle(.black)
                             }
+                            .shadow(color: .gray, radius: 0.5)
                     })
                     Spacer()
                     Circle()
@@ -65,6 +71,7 @@ struct AdviceView: View {
                                 .imageScale(.large)
                                 .foregroundStyle(.black)
                         }
+                        .shadow(color: .gray, radius: 0.5)
                     Spacer()
                     ShareLink(item: viewmodel.advice.advice) {
                         Circle()
@@ -75,6 +82,7 @@ struct AdviceView: View {
                                     .imageScale(.large)
                                     .foregroundStyle(.black)
                             }
+                            .shadow(color: .gray, radius: 0.5)
                     }
                 }
                 

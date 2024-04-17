@@ -35,6 +35,7 @@ final class NetworkManager {
             let (data, _) = try await URLSession.shared.data(for: request)
             
             let decoder = JSONDecoder()
+            
             return try decoder.decode(slipResponse.self, from: data).slip
         } catch {
             throw APError.invalidData
