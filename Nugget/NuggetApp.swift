@@ -12,6 +12,7 @@ struct NuggetApp: App {
     var body: some Scene {
         WindowGroup {
             AdviceView()
+                .preferredColorScheme(.light)
         }
     }
 }

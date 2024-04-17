@@ -88,10 +88,10 @@
 		6400B4952BCFD4C400FF2906 /* Nugget */ = {
 			isa = PBXGroup;
 			children = (
+				6400B4962BCFD4C400FF2906 /* NuggetApp.swift */,
 				6400B4C22BCFDF0100FF2906 /* Info.plist */,
 				6400B4C72BCFEEAD00FF2906 /* Networkmanager */,
 				6400B4A42BCFDC8F00FF2906 /* Font */,
-				6400B4962BCFD4C400FF2906 /* NuggetApp.swift */,
 				6400B4982BCFD4C400FF2906 /* AdviceView.swift */,
 				6400B4CE2BCFF10800FF2906 /* AdviceViewModel.swift */,
 				6400B49A2BCFD4C400FF2906 /* Assets.xcassets */,

@@ -29,7 +29,7 @@ final class NetworkManager {
             throw APError.invalidURL
         }
         
-        var request = URLRequest(url: url)
+        let request = URLRequest(url: url)
         
         do {
             let (data, _) = try await URLSession.shared.data(for: request)
