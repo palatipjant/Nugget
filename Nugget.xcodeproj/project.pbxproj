@@ -31,6 +31,19 @@
 		6400B4D12BCFF20B00FF2906 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400B4D02BCFF20B00FF2906 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6426BEC22BD092A300B7FC11 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		6400B4932BCFD4C400FF2906 /* Nugget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nugget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6400B4962BCFD4C400FF2906 /* NuggetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuggetApp.swift; sourceTree = "<group>"; };
@@ -56,6 +69,8 @@
 		6400B4CC2BCFEFBA00FF2906 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		6400B4CE2BCFF10800FF2906 /* AdviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceViewModel.swift; sourceTree = "<group>"; };
 		6400B4D02BCFF20B00FF2906 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		6426BEAC2BD092A200B7FC11 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6426BEAE2BD092A200B7FC11 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				6400B4952BCFD4C400FF2906 /* Nugget */,
+				6426BEAB2BD092A200B7FC11 /* Frameworks */,
 				6400B4942BCFD4C400FF2906 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +104,8 @@
 		6400B4952BCFD4C400FF2906 /* Nugget */ = {
 			isa = PBXGroup;
 			children = (
-				6400B4962BCFD4C400FF2906 /* NuggetApp.swift */,
 				6400B4C22BCFDF0100FF2906 /* Info.plist */,
+				6400B4962BCFD4C400FF2906 /* NuggetApp.swift */,
 				6400B4C72BCFEEAD00FF2906 /* Networkmanager */,
 				6400B4A42BCFDC8F00FF2906 /* Font */,
 				6400B4982BCFD4C400FF2906 /* AdviceView.swift */,
@@ -147,6 +163,15 @@
 			path = Networkmanager;
 			sourceTree = "<group>";
 		};
+		6426BEAB2BD092A200B7FC11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6426BEAC2BD092A200B7FC11 /* WidgetKit.framework */,
+				6426BEAE2BD092A200B7FC11 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +182,7 @@
 				6400B48F2BCFD4C400FF2906 /* Sources */,
 				6400B4902BCFD4C400FF2906 /* Frameworks */,
 				6400B4912BCFD4C400FF2906 /* Resources */,
+				6426BEC22BD092A300B7FC11 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -365,6 +391,7 @@
 		6400B4A22BCFD4C400FF2906 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -395,6 +422,7 @@
 		6400B4A32BCFD4C400FF2906 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;

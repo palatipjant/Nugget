@@ -49,6 +49,7 @@ struct AdviceView: View {
             VStack{
                 Spacer()
                 HStack {
+                    
                     Button(action: {
                         viewmodel.getAdvice()
                     }, label: {
@@ -62,7 +63,9 @@ struct AdviceView: View {
                             }
                             .shadow(color: .gray, radius: 0.5)
                     })
+                    
                     Spacer()
+                    
                     Circle()
                         .frame(width: 70, height: 70)
                         .foregroundStyle(.whity)
@@ -72,7 +75,9 @@ struct AdviceView: View {
                                 .foregroundStyle(.black)
                         }
                         .shadow(color: .gray, radius: 0.5)
+                    
                     Spacer()
+                    
                     ShareLink(item: viewmodel.advice.advice) {
                         Circle()
                             .frame(width: 70, height: 70)
