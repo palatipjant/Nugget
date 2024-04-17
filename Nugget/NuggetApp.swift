@@ -11,7 +11,7 @@ import SwiftUI
 struct NuggetApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AdviceView()
         }
     }
 }

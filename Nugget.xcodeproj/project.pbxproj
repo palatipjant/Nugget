@@ -8,17 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		6400B4972BCFD4C400FF2906 /* NuggetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400B4962BCFD4C400FF2906 /* NuggetApp.swift */; };
-		6400B4992BCFD4C400FF2906 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400B4982BCFD4C400FF2906 /* ContentView.swift */; };
+		6400B4992BCFD4C400FF2906 /* AdviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400B4982BCFD4C400FF2906 /* AdviceView.swift */; };
 		6400B49B2BCFD4C400FF2906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6400B49A2BCFD4C400FF2906 /* Assets.xcassets */; };
 		6400B49E2BCFD4C400FF2906 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6400B49D2BCFD4C400FF2906 /* Preview Assets.xcassets */; };
+		6400B4B42BCFDDB500FF2906 /* RobotoMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4A62BCFDDB400FF2906 /* RobotoMono-SemiBold.ttf */; };
+		6400B4B52BCFDDB500FF2906 /* RobotoMono-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4A72BCFDDB400FF2906 /* RobotoMono-ThinItalic.ttf */; };
+		6400B4B62BCFDDB500FF2906 /* RobotoMono-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4A82BCFDDB400FF2906 /* RobotoMono-SemiBoldItalic.ttf */; };
+		6400B4B72BCFDDB500FF2906 /* RobotoMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4A92BCFDDB400FF2906 /* RobotoMono-Bold.ttf */; };
+		6400B4B82BCFDDB500FF2906 /* RobotoMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4AA2BCFDDB400FF2906 /* RobotoMono-Italic.ttf */; };
+		6400B4B92BCFDDB500FF2906 /* RobotoMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4AB2BCFDDB400FF2906 /* RobotoMono-Medium.ttf */; };
+		6400B4BA2BCFDDB500FF2906 /* RobotoMono-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4AC2BCFDDB400FF2906 /* RobotoMono-MediumItalic.ttf */; };
+		6400B4BB2BCFDDB500FF2906 /* RobotoMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4AD2BCFDDB400FF2906 /* RobotoMono-Light.ttf */; };
+		6400B4BC2BCFDDB500FF2906 /* RobotoMono-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4AE2BCFDDB400FF2906 /* RobotoMono-ExtraLightItalic.ttf */; };
+		6400B4BD2BCFDDB500FF2906 /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4AF2BCFDDB400FF2906 /* RobotoMono-Regular.ttf */; };
+		6400B4BE2BCFDDB500FF2906 /* RobotoMono-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4B02BCFDDB500FF2906 /* RobotoMono-LightItalic.ttf */; };
+		6400B4BF2BCFDDB500FF2906 /* RobotoMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4B12BCFDDB500FF2906 /* RobotoMono-BoldItalic.ttf */; };
+		6400B4C02BCFDDB500FF2906 /* RobotoMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4B22BCFDDB500FF2906 /* RobotoMono-ExtraLight.ttf */; };
+		6400B4C12BCFDDB500FF2906 /* RobotoMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6400B4B32BCFDDB500FF2906 /* RobotoMono-Thin.ttf */; };
+		6400B4CB2BCFEED200FF2906 /* Networkmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400B4CA2BCFEED200FF2906 /* Networkmanager.swift */; };
+		6400B4CD2BCFEFBA00FF2906 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400B4CC2BCFEFBA00FF2906 /* model.swift */; };
+		6400B4CF2BCFF10800FF2906 /* AdviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400B4CE2BCFF10800FF2906 /* AdviceViewModel.swift */; };
+		6400B4D12BCFF20B00FF2906 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400B4D02BCFF20B00FF2906 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6400B4932BCFD4C400FF2906 /* Nugget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nugget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6400B4962BCFD4C400FF2906 /* NuggetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuggetApp.swift; sourceTree = "<group>"; };
-		6400B4982BCFD4C400FF2906 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6400B4982BCFD4C400FF2906 /* AdviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceView.swift; sourceTree = "<group>"; };
 		6400B49A2BCFD4C400FF2906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6400B49D2BCFD4C400FF2906 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6400B4A62BCFDDB400FF2906 /* RobotoMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		6400B4A72BCFDDB400FF2906 /* RobotoMono-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6400B4A82BCFDDB400FF2906 /* RobotoMono-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6400B4A92BCFDDB400FF2906 /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Bold.ttf"; sourceTree = "<group>"; };
+		6400B4AA2BCFDDB400FF2906 /* RobotoMono-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Italic.ttf"; sourceTree = "<group>"; };
+		6400B4AB2BCFDDB400FF2906 /* RobotoMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Medium.ttf"; sourceTree = "<group>"; };
+		6400B4AC2BCFDDB400FF2906 /* RobotoMono-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6400B4AD2BCFDDB400FF2906 /* RobotoMono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Light.ttf"; sourceTree = "<group>"; };
+		6400B4AE2BCFDDB400FF2906 /* RobotoMono-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		6400B4AF2BCFDDB400FF2906 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
+		6400B4B02BCFDDB500FF2906 /* RobotoMono-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-LightItalic.ttf"; sourceTree = "<group>"; };
+		6400B4B12BCFDDB500FF2906 /* RobotoMono-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6400B4B22BCFDDB500FF2906 /* RobotoMono-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6400B4B32BCFDDB500FF2906 /* RobotoMono-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Thin.ttf"; sourceTree = "<group>"; };
+		6400B4C22BCFDF0100FF2906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6400B4CA2BCFEED200FF2906 /* Networkmanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkmanager.swift; sourceTree = "<group>"; };
+		6400B4CC2BCFEFBA00FF2906 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		6400B4CE2BCFF10800FF2906 /* AdviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceViewModel.swift; sourceTree = "<group>"; };
+		6400B4D02BCFF20B00FF2906 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +88,12 @@
 		6400B4952BCFD4C400FF2906 /* Nugget */ = {
 			isa = PBXGroup;
 			children = (
+				6400B4C22BCFDF0100FF2906 /* Info.plist */,
+				6400B4C72BCFEEAD00FF2906 /* Networkmanager */,
+				6400B4A42BCFDC8F00FF2906 /* Font */,
 				6400B4962BCFD4C400FF2906 /* NuggetApp.swift */,
-				6400B4982BCFD4C400FF2906 /* ContentView.swift */,
+				6400B4982BCFD4C400FF2906 /* AdviceView.swift */,
+				6400B4CE2BCFF10800FF2906 /* AdviceViewModel.swift */,
 				6400B49A2BCFD4C400FF2906 /* Assets.xcassets */,
 				6400B49C2BCFD4C400FF2906 /* Preview Content */,
 			);
@@ -65,6 +106,45 @@
 				6400B49D2BCFD4C400FF2906 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6400B4A42BCFDC8F00FF2906 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6400B4A52BCFDDA100FF2906 /* Roboto_mono */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		6400B4A52BCFDDA100FF2906 /* Roboto_mono */ = {
+			isa = PBXGroup;
+			children = (
+				6400B4A92BCFDDB400FF2906 /* RobotoMono-Bold.ttf */,
+				6400B4B12BCFDDB500FF2906 /* RobotoMono-BoldItalic.ttf */,
+				6400B4B22BCFDDB500FF2906 /* RobotoMono-ExtraLight.ttf */,
+				6400B4AE2BCFDDB400FF2906 /* RobotoMono-ExtraLightItalic.ttf */,
+				6400B4AA2BCFDDB400FF2906 /* RobotoMono-Italic.ttf */,
+				6400B4AD2BCFDDB400FF2906 /* RobotoMono-Light.ttf */,
+				6400B4B02BCFDDB500FF2906 /* RobotoMono-LightItalic.ttf */,
+				6400B4AB2BCFDDB400FF2906 /* RobotoMono-Medium.ttf */,
+				6400B4AC2BCFDDB400FF2906 /* RobotoMono-MediumItalic.ttf */,
+				6400B4AF2BCFDDB400FF2906 /* RobotoMono-Regular.ttf */,
+				6400B4A62BCFDDB400FF2906 /* RobotoMono-SemiBold.ttf */,
+				6400B4A82BCFDDB400FF2906 /* RobotoMono-SemiBoldItalic.ttf */,
+				6400B4B32BCFDDB500FF2906 /* RobotoMono-Thin.ttf */,
+				6400B4A72BCFDDB400FF2906 /* RobotoMono-ThinItalic.ttf */,
+			);
+			path = Roboto_mono;
+			sourceTree = "<group>";
+		};
+		6400B4C72BCFEEAD00FF2906 /* Networkmanager */ = {
+			isa = PBXGroup;
+			children = (
+				6400B4CA2BCFEED200FF2906 /* Networkmanager.swift */,
+				6400B4CC2BCFEFBA00FF2906 /* model.swift */,
+				6400B4D02BCFF20B00FF2906 /* Alert.swift */,
+			);
+			path = Networkmanager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +205,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6400B4BC2BCFDDB500FF2906 /* RobotoMono-ExtraLightItalic.ttf in Resources */,
+				6400B4B82BCFDDB500FF2906 /* RobotoMono-Italic.ttf in Resources */,
 				6400B49E2BCFD4C400FF2906 /* Preview Assets.xcassets in Resources */,
+				6400B4B52BCFDDB500FF2906 /* RobotoMono-ThinItalic.ttf in Resources */,
+				6400B4B62BCFDDB500FF2906 /* RobotoMono-SemiBoldItalic.ttf in Resources */,
+				6400B4C02BCFDDB500FF2906 /* RobotoMono-ExtraLight.ttf in Resources */,
+				6400B4B72BCFDDB500FF2906 /* RobotoMono-Bold.ttf in Resources */,
+				6400B4BE2BCFDDB500FF2906 /* RobotoMono-LightItalic.ttf in Resources */,
+				6400B4BB2BCFDDB500FF2906 /* RobotoMono-Light.ttf in Resources */,
+				6400B4B92BCFDDB500FF2906 /* RobotoMono-Medium.ttf in Resources */,
 				6400B49B2BCFD4C400FF2906 /* Assets.xcassets in Resources */,
+				6400B4BA2BCFDDB500FF2906 /* RobotoMono-MediumItalic.ttf in Resources */,
+				6400B4B42BCFDDB500FF2906 /* RobotoMono-SemiBold.ttf in Resources */,
+				6400B4C12BCFDDB500FF2906 /* RobotoMono-Thin.ttf in Resources */,
+				6400B4BD2BCFDDB500FF2906 /* RobotoMono-Regular.ttf in Resources */,
+				6400B4BF2BCFDDB500FF2906 /* RobotoMono-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +231,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6400B4992BCFD4C400FF2906 /* ContentView.swift in Sources */,
+				6400B4D12BCFF20B00FF2906 /* Alert.swift in Sources */,
+				6400B4992BCFD4C400FF2906 /* AdviceView.swift in Sources */,
+				6400B4CB2BCFEED200FF2906 /* Networkmanager.swift in Sources */,
 				6400B4972BCFD4C400FF2906 /* NuggetApp.swift in Sources */,
+				6400B4CD2BCFEFBA00FF2906 /* model.swift in Sources */,
+				6400B4CF2BCFF10800FF2906 /* AdviceViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +373,7 @@
 				DEVELOPMENT_TEAM = H4X7G96ZKF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nugget/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +403,7 @@
 				DEVELOPMENT_TEAM = H4X7G96ZKF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nugget/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
