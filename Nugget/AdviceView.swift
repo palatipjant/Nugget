@@ -66,14 +66,16 @@ struct AdviceView: View {
                                 .foregroundStyle(.black)
                         }
                     Spacer()
-                    Circle()
-                        .frame(width: 70, height: 70)
-                        .foregroundStyle(.whity)
-                        .overlay {
-                            Image(systemName: "square.and.arrow.up")
-                                .imageScale(.large)
-                                .foregroundStyle(.black)
-                        }
+                    ShareLink(item: viewmodel.advice.advice) {
+                        Circle()
+                            .frame(width: 70, height: 70)
+                            .foregroundStyle(.whity)
+                            .overlay {
+                                Image(systemName: "square.and.arrow.up")
+                                    .imageScale(.large)
+                                    .foregroundStyle(.black)
+                            }
+                    }
                 }
                 
             }.padding(50)
