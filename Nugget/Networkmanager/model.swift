@@ -15,4 +15,3 @@ struct Slip: Codable, Identifiable {
     let id: Int
     let advice: String
 }
-

@@ -21,6 +21,10 @@ final class NetworkManager {
     
     private let baseURL = "https://api.adviceslip.com/advice"
     
+    private let quotesURL = "https://api.api-ninjas.com/v1/quotes?category=inspirational"
+    
+    let authToken = "rBNqfYhLJ8VBXiyizEOinw==HddSLduaziK6QrLP"
+    
     private init() {}
     
     func fetchAdvice() async throws -> Slip {
@@ -33,9 +37,7 @@ final class NetworkManager {
         
         do {
             let (data, _) = try await URLSession.shared.data(for: request)
-            
             let decoder = JSONDecoder()
-            
             return try decoder.decode(slipResponse.self, from: data).slip
         } catch {
             throw APError.invalidData
