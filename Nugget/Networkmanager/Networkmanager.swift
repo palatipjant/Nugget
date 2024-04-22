@@ -22,9 +22,7 @@ final class NetworkManager {
     private let baseURL = "https://api.adviceslip.com/advice"
     
     private let quotesURL = "https://api.api-ninjas.com/v1/quotes?category=inspirational"
-    
-    let authToken = "rBNqfYhLJ8VBXiyizEOinw==HddSLduaziK6QrLP"
-    
+        
     private init() {}
     
     func fetchAdvice() async throws -> Slip {
