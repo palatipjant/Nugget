@@ -15,17 +15,3 @@ struct Slip: Codable, Identifiable {
     let id: Int
     let advice: String
 }
-
-
-struct dataResponse: Codable {
-    let data: [dataModel]
-}
-
-struct dataModel: Codable {
-    let tableId: String
-    let tableOrder: [tableOrder]
-}
-
-struct tableOrder: Codable {
-    let menuId: String
-}
